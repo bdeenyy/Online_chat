@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1972a49a-a49b-4fbe-a8ff-5107712cc252" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1972a49a-a49b-4fbe-a8ff-5107712cc252" name="Changes" comment="fix">
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/AnswerThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Settings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Settings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Client/src/main/java/com/github/bdeenyy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/ClientHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Server.java" beforeDir="false" afterPath="$PROJECT_DIR$/Server/src/main/java/com/github/bdeenyy/Server.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -109,6 +110,14 @@
       <option name="presentableId" value="Default" />
       <updated>1669751637929</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1669915377197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1669915377197</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -124,5 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
 </project>

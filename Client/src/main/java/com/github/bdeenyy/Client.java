@@ -1,31 +1,40 @@
 package com.github.bdeenyy;
 
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.net.Socket;
 import java.util.Scanner;
 
 public class Client {
-    private static final String SERVER_HOST = "localhost";
-    private static final int SERVER_PORT = 3443;
-    private Socket clientSocket;
-    private Scanner inMessage;
-    private PrintWriter outMessage;
-    private String clientName = "";
 
-    public String getClientName() {
-        return this.clientName;
-    }
-
-    public Client(){
-        try {
-            clientSocket = new Socket(SERVER_HOST, SERVER_PORT);
-            System.out.println("Соединение установлено!");
-            inMessage = new Scanner(clientSocket.getInputStream());
-            outMessage = new PrintWriter(clientSocket.getOutputStream());
-        } catch (IOException e){
-            e.printStackTrace();
+    public Client() throws IOException {
+        Socket socket = new Socket(Settings.userHost, Settings.usersPort);
+        Logger logger = Logger.getLogger();
+        AnswerThread answerThread = new AnswerThread(socket);
+        answerThread.start();
+        logger.log(" Установлено соединение с сервером");
+        boolean autoFlush = true;
+        PrintWriter out = new PrintWriter(new OutputStreamWriter(socket.getOutputStream()), autoFlush);
+        Scanner scanner = new Scanner(System.in);
+        // First message - client's name
+        String name;
+        System.out.println("Введите Ваше имя в чате:");
+        name = scanner.nextLine();
+        logger.log("Пользователь вошёл в чат под именем " + name);
+        out.println(name);
+        while (true) {
+            String input;
+            System.out.println("Введите сообщение или /exit для выхода:");
+            input = scanner.nextLine();
+            out.println(input);
+            logger.log(input);
+            if ("exit".equalsIgnoreCase(input)) {
+                break;
+            }
         }
+        answerThread.interrupt();
+        logger.log("Пользователь вышел из чата.");
+        out.close();
+        scanner.close();
+        socket.close();
     }
-
 }
