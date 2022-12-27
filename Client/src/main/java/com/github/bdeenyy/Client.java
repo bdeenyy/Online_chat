@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Client {
 
     public Client() throws IOException {
+        Settings.applySettings();
         Socket socket = new Socket(Settings.userHost, Settings.usersPort);
         Logger logger = Logger.getLogger();
         AnswerThread answerThread = new AnswerThread(socket);

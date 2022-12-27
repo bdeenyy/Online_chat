@@ -46,6 +46,7 @@ public class Settings {
             Logger.getLogger().log(message);
         }
     }
+
     public static String getOSMainDir() {
         // определение операционной системы с помощью системного свойства `os.name`
         String os = System.getProperty("os.name").toLowerCase();

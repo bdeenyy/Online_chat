@@ -21,9 +21,10 @@ public class Settings {
         if (!settings.exists()) {
             try {
                 createDir();
-                if (settings.createNewFile()){
+                if (settings.createNewFile()) {
                     System.out.println("Создан файл конфигурации сети.");
-                };
+                }
+                ;
             } catch (IOException exception) {
                 exception.printStackTrace();
             }
@@ -50,6 +51,7 @@ public class Settings {
             Logger.getLogger().log(message);
         }
     }
+
     public static String getOSMainDir() {
         // определение операционной системы с помощью системного свойства `os.name`
         String os = System.getProperty("os.name").toLowerCase();
