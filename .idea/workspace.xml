@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1972a49a-a49b-4fbe-a8ff-5107712cc252" name="Changes" comment="Complete">
+    <list default="true" id="1972a49a-a49b-4fbe-a8ff-5107712cc252" name="Changes" comment="Edit README.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,33 @@
       <recent name="com.github.bdeenyy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LoggerTest (1)">
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.Main" />
+      <module name="Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.bdeenyy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.Main" />
+      <module name="Server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.github.bdeenyy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoggerTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Client" />
       <extension name="coverage">
@@ -82,36 +107,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.github.bdeenyy" />
       <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.LoggerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoggerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.bdeenyy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.bdeenyy" />
-      <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.LoggerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ServerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.github.bdeenyy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.github.bdeenyy" />
-      <option name="MAIN_CLASS_NAME" value="com.github.bdeenyy.ServerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.LoggerTest (1)" />
         <item itemvalue="JUnit.SettingsTest (1)" />
         <item itemvalue="JUnit.SettingsTest" />
-        <item itemvalue="JUnit.LoggerTest" />
-        <item itemvalue="JUnit.ServerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672138240432</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Edit README.md">
+      <created>1672236201228</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672236201228</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -206,6 +208,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="append Client" />
     <MESSAGE value="Complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Complete" />
+    <MESSAGE value="Edit README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edit README.md" />
   </component>
 </project>

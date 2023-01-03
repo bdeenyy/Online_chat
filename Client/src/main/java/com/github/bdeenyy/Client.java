@@ -28,7 +28,7 @@ public class Client {
             input = scanner.nextLine();
             out.println(input);
             logger.log(input);
-            if ("exit".equalsIgnoreCase(input)) {
+            if ("/exit".equalsIgnoreCase(input)) {
                 break;
             }
         }
